@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolueen's To-do list app</title>
+    <link rel="stylesheet" href="tolu-list.styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Welcome to Tolueen's To-do List
+        </h1>
+        <input type ="text", Id = "taskInput" , placeholder="Add your tasks here ...">
+        <button onclick="addTask()">Add task</button>  
+        <h6>Kindly note the information below:</h6>
+        <h6>To delete, double tap on selected tasks.<br> To edit, right-click on selected tasks</h6>
+    
+
+<!--list of tasks will be generated here-->
+        <ul id = "taskList"></ul>      
+    </div>
+
+    <script src="tolu-list.js"></script>
+</body>
+</html>
